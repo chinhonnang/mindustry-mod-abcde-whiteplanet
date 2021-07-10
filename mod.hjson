@@ -1,0 +1,9 @@
+name: "abcde"
+displayName: "abcde"
+description: "planet test"
+author: "initiate"
+version: "0.0.0"
+minGameVersion: "120"
+hidden: false
+
+
