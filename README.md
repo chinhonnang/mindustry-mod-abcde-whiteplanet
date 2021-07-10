@@ -5,9 +5,11 @@ code display:
 
 const abcde = new JavaAdapter(Planet, {}, "abcde", Planets.sun, 4, 1); 
 // the first number represents its size thus its number of locations. putting this number to 5 or greater will result the game crash
+
 abcde.generator = new SerpuloPlanetGenerator(); // generator built in the original game
+
 abcde.mesh = new HexMesh(abcde, 5); // for hud up oh hover decoretion . Not imortant
-  abcde.orbitRadius = 100; // distance from the sun
+ abcde.orbitRadius = 100; // distance from the sun
     abcde.orbitTime = 1500; 
     abcde.rotateTime = 30;
     abcde.bloom = false;
@@ -22,6 +24,7 @@ abcde.mesh = new HexMesh(abcde, 5); // for hud up oh hover decoretion . Not imor
 
 var h = new SectorPreset("a1", abcde, 1); 
 // currenlty does not work for this stage in terms of difficulty but needed to proceed to the rest of the planet.  
+
 h.difficulty = 1; 
 h.alwaysUnlocked = true;
 h.captureWave = 12; 
