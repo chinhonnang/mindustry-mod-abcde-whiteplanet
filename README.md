@@ -5,6 +5,7 @@ code display:
 
 const abcde = new JavaAdapter(Planet, {}, "abcde", Planets.sun, 4, 1); 
 // the first number represents its size thus its number of locations. putting this number to 5 or greater will result the game crash
+if the planet is larger than it the generator can support, the planet will have white surface. 
 
 abcde.generator = new SerpuloPlanetGenerator(); // generator built in the original game
 
